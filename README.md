@@ -22,14 +22,14 @@ It includes an interactive **Streamlit dashboard** for visualization and model c
 
 ## Project Structure
 ferry_forecasting/
-│── README.md  
-│── requirements.txt
-│── data/
+│__ README.md  
+│__ requirements.txt
+│__ data/
 │   └── Toronto Island Ferry Tickets.csv
-│── app.py
-│── model_utils.py
-│── evaluation.py
-│── config.py
+│__ app.py
+│__ model_utils.py
+│__ evaluation.py
+│__ config.py
 
 ## Install dependencies:
 pip install -r requirements.txt
