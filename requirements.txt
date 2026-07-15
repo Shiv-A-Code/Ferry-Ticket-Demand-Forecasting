@@ -7,17 +7,3 @@ xgboost
 streamlit
 matplotlib
 seaborn
-
-"""pandas, numpy → for data handling.
-
-scikit-learn → for machine learning models (Random Forest, Gradient Boosting).
-
-statsmodels → for ARIMA/SARIMA (if you add later).
-
-prophet → for seasonality-aware forecasting.
-
-xgboost → optional ML model.
-
-streamlit → for the interactive dashboard.
-
-matplotlib, seaborn → for plotting and visualization."""
