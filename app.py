@@ -4,7 +4,7 @@ from model_utils import prepare_data, naive_forecast, random_forest_forecast, pr
 from evaluation import kpi_summary
 from config import DATA_PATH
 
-st.title("Ferry Ticket Demand Forecasting Dashboard")
+st.title("Short-Term Ferry Ticket Demand Forecasting Dashboard")
 
 # Sidebar controls
 model_choice = st.sidebar.selectbox("Select Model", ["Naive", "Random Forest", "Prophet"])
