@@ -15,7 +15,8 @@ def prepare_data(file_path):
     df['hour'] = df.index.hour
     df['day_of_week'] = df.index.dayofweek
     df['is_weekend'] = df['day_of_week'].isin([5,6]).astype(int)
-
+    # Shrink dataset to 100 rows
+    df = df.tail(100)   # keeps the most recent 100 intervals
     return df
 
 def naive_forecast(df, horizon=1):
