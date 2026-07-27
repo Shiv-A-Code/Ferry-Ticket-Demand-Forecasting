@@ -5,6 +5,16 @@ It includes an interactive **Streamlit dashboard** for visualization and model c
 
 ---
 
+##  Primary Objectives
+- Forecast short-term ferry ticket **sales and redemptions**
+- Predict demand for upcoming **15-minute to 2-hour horizons**
+- Compare **statistical vs machine-learning forecasting approaches**
+
+## 🔍 Secondary Objectives
+- Quantify **prediction uncertainty**
+- Support **proactive operational planning**
+- Demonstrate **real-world ML deployment via Streamlit**
+
 ## Features
 - Baseline models (Naïve, Moving Average, Linear Regression)
 - Machine Learning models (Random Forest, Gradient Boosting, XGBoost)
@@ -20,9 +30,6 @@ It includes an interactive **Streamlit dashboard** for visualization and model c
   - Forecast Lead Time
   - Forecast Accuracy (%)
   - Error Drift	Stability across horizons
-
-
-
 
 ---
 
@@ -45,24 +52,8 @@ ferry_forecasting/
 │__ config.py
 
 
-# Short-Term Ferry Ticket Demand Forecasting & Predictive Decision Support System
 
-This project transforms historical ferry ticket data into **predictive intelligence** for Toronto Island Park operations.  
-It leverages machine learning and time-series forecasting to anticipate demand in upcoming 15-minute to 2-hour windows.
 
----
-
-## 🎯 Primary Objectives
-- Forecast short-term ferry ticket **sales and redemptions**
-- Predict demand for upcoming **15-minute to 2-hour horizons**
-- Compare **statistical vs machine-learning forecasting approaches**
-
-## 🔍 Secondary Objectives
-- Quantify **prediction uncertainty**
-- Support **proactive operational planning**
-- Demonstrate **real-world ML deployment via Streamlit**
-
----
 
 ## 📊 Dataset
 | Column            | Description                          |
@@ -74,7 +65,7 @@ It leverages machine learning and time-series forecasting to anticipate demand i
 
 ---
 
-## ⚙️ Methodology
+## Methodology
 1. **Time-Series Preparation**  
    - Convert timestamps to datetime index  
    - Handle missing intervals via interpolation/masking  
@@ -91,7 +82,7 @@ It leverages machine learning and time-series forecasting to anticipate demand i
 
 ---
 
-## 📈 Evaluation Metrics
+## Evaluation Metrics
 - **MAE** (Mean Absolute Error)  
 - **RMSE** (Root Mean Squared Error)  
 - **MAPE** (Mean Absolute Percentage Error)  
@@ -99,7 +90,7 @@ It leverages machine learning and time-series forecasting to anticipate demand i
 
 ---
 
-## 🚀 Streamlit Dashboard Features
+## Streamlit Dashboard Features
 - Interactive **future demand forecast charts**  
 - **Model selection & comparison**  
 - Horizon selector (15m–2h)  
@@ -108,7 +99,7 @@ It leverages machine learning and time-series forecasting to anticipate demand i
 
 ---
 
-## 📦 Deliverables
+## Deliverables
 - Research paper (EDA, insights, recommendations)  
 - Streamlit dashboard (live analytics)  
 - Executive summary for stakeholders  
