@@ -1,1 +1,46 @@
+Executive Summary--
 
+Short-Term Ferry Ticket Demand Forecasting & Predictive Decision Support System
+
+Toronto Island Park ferry operations face recurring challenges in managing sudden spikes in passenger demand.
+Current practices rely heavily on reactive responses, which increase the risk of congestion, delays, and safety concerns.
+This project introduces a predictive intelligence framework that transforms historical ticket data into actionable short-term forecasts.
+
+Purpose--
+The system provides ferry operators with 15-minute to 2-hour demand forecasts, enabling proactive scheduling, staff allocation, and crowd management. By integrating machine learning and time-series models, the solution shifts operations from reactive to predictive planning.
+
+Key Objectives--
+
+- Primary
+
+Forecast short-term ticket sales and redemptions
+
+Predict demand for upcoming 15-minute to 2-hour windows
+
+Compare statistical and machine-learning forecasting approaches
+
+- Secondary
+
+Quantify prediction uncertainty with confidence intervals
+
+Support proactive operational planning
+
+Demonstrate real-world ML deployment via a Streamlit dashboard
+
+Benefits for Stakeholders--
+
+Operational Efficiency: Align ferry schedules with real-time demand forecasts.
+
+Safety Preparedness: Anticipate crowd surges and deploy staff proactively.
+
+Public Service Optimization: Reduce wait times, improve passenger experience, and enhance trust in public transport services.
+
+Decision Support: Provide government stakeholders with transparent KPIs (accuracy, peak miss rate, forecast lead time) to evaluate system reliability.
+
+Deliverables--
+
+Streamlit Dashboard: Interactive forecasting tool with model comparison and confidence bands.
+
+Research Paper: Analytical insights and recommendations for operational planning.
+
+Executive Summary: Strategic overview for government decision-makers.
