@@ -1,5 +1,11 @@
 Short-Term Ferry Ticket Demand Forecasting & Predictive Decision Support System
+
 Abstract
 This study explores the application of machine learning and time-series forecasting to predict short-term ferry ticket demand for Toronto Island Park.
 By analyzing historical ticket sales and redemptions, the project demonstrates how predictive intelligence can support proactive scheduling,
 staff readiness, and crowd management.
+
+1. Introduction
+Ferry operations traditionally rely on reactive responses to passenger demand.This often results in congestion, delays, and safety risks during sudden 
+demand spikes. The objective of this research is to transition operations from reactive analytics to predictive intelligence, enabling ferry operators
+to anticipate demand in upcoming 15-minute to 2-hour windows.
