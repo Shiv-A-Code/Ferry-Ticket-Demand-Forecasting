@@ -1,11 +1,19 @@
 Short-Term Ferry Ticket Demand Forecasting & Predictive Decision Support System
 
-Abstract
-This study explores the application of machine learning and time-series forecasting to predict short-term ferry ticket demand for Toronto Island Park.
-By analyzing historical ticket sales and redemptions, the project demonstrates how predictive intelligence can support proactive scheduling,
-staff readiness, and crowd management.
+1. Abstract
+This research investigates the application of machine learning and time-series forecasting to predict short-term ferry ticket demand for Toronto Island Park.
+Ferry operations face recurring challenges in managing sudden surges in passenger traffic, particularly during weekends, holidays, and peak tourist seasons.
+Traditional reactive approaches often result in congestion, delays, and safety risks. By leveraging historical ticket sales and redemption data, this project
+develops predictive models capable of forecasting demand in upcoming 15-minute to 2-hour windows. The study compares baseline statistical methods with
+advanced machine learning and time-series models, evaluates their accuracy using multiple metrics, and integrates results into a Streamlit dashboard 
+for real-time decision support. The findings demonstrate how predictive intelligence can enhance operational efficiency, improve passenger experience, 
+and support proactive planning for government stakeholders responsible for public transport services.
 
-1. Introduction
-Ferry operations traditionally rely on reactive responses to passenger demand.This often results in congestion, delays, and safety risks during sudden 
-demand spikes. The objective of this research is to transition operations from reactive analytics to predictive intelligence, enabling ferry operators
-to anticipate demand in upcoming 15-minute to 2-hour windows.
+2. Introduction
+Toronto Island Park is a major recreational destination, attracting thousands of visitors daily during peak seasons. Ferry services act as the primary mode of
+transport, making efficient scheduling and crowd management critical to public safety and service quality. Currently, ferry operations rely on reactive
+responses to demand fluctuations, which often leads to overcrowding, long wait times, and strained staff resources. The goal of this research is to transition 
+operations from reactive analytics to predictive intelligence. By forecasting ticket demand in short-term intervals, operators can anticipate congestion before
+it occurs, allocate staff more effectively, and adjust ferry schedules proactively. This approach aligns with modern smart city initiatives, where data-driven
+decision-making enhances public service delivery. The study emphasizes the importance of integrating machine learning into transportation planning,
+demonstrating how predictive models can directly support operational resilience and improve passenger satisfaction.
