@@ -17,3 +17,12 @@ operations from reactive analytics to predictive intelligence. By forecasting ti
 it occurs, allocate staff more effectively, and adjust ferry schedules proactively. This approach aligns with modern smart city initiatives, where data-driven
 decision-making enhances public service delivery. The study emphasizes the importance of integrating machine learning into transportation planning,
 demonstrating how predictive models can directly support operational resilience and improve passenger satisfaction.
+
+3. Dataset and Exploratory Data Analysis (EDA)
+The dataset consists of high-frequency ticketing records spanning over a decade, with each entry representing a 15-minute interval. Key variables include
+Timestamp, Sales Count, and Redemption Count. Exploratory Data Analysis reveals several important patterns. Demand peaks are strongly correlated with 
+weekends, holidays, and summer months, reflecting seasonal tourism trends. Hourly analysis shows higher ticket activity during morning departures and late
+afternoon returns, consistent with visitor behavior. Correlation analysis highlights that redemptions lag behind sales, as passengers often purchase 
+tickets in advance. Missing intervals were identified and handled through resampling and interpolation to ensure continuity. Rolling statistics such as
+moving averages and lag features were engineered to capture temporal dependencies. These insights confirm that ferry demand is influenced by both short-term
+fluctuations and long-term seasonal cycles, making it an ideal candidate for hybrid forecasting approaches.
