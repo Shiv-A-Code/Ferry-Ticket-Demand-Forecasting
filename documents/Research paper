@@ -26,3 +26,12 @@ afternoon returns, consistent with visitor behavior. Correlation analysis highli
 tickets in advance. Missing intervals were identified and handled through resampling and interpolation to ensure continuity. Rolling statistics such as
 moving averages and lag features were engineered to capture temporal dependencies. These insights confirm that ferry demand is influenced by both short-term
 fluctuations and long-term seasonal cycles, making it an ideal candidate for hybrid forecasting approaches.
+
+4. Methodology
+The methodology combines statistical, machine learning, and time-series approaches to forecast demand. Data preparation involved resampling into 15-minute
+intervals, handling missing values, and engineering predictive features such as lag variables (t-1, t-2, t-4, t-8), rolling averages, and temporal encodings 
+(hour, day, weekend indicator). Baseline models included naïve forecasts and moving averages, serving as benchmarks. Machine learning models such as 
+Random Forest and Gradient Boosting were implemented to capture non-linear relationships between time features and demand. XGBoost was considered as an 
+extension for improved accuracy. Time-series models included ARIMA/SARIMA for stationary patterns and Prophet for seasonality-aware forecasting. Evaluation
+metrics included MAE, RMSE, and MAPE, with horizon-wise error analysis to compare short vs longer forecasts. Rolling forecast validation ensured robustness
+across different time windows. This multi-model approach allowed for comprehensive comparison and identification of the most effective forecasting strategy.
