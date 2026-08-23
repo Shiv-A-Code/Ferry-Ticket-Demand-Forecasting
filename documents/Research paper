@@ -35,3 +35,12 @@ Random Forest and Gradient Boosting were implemented to capture non-linear relat
 extension for improved accuracy. Time-series models included ARIMA/SARIMA for stationary patterns and Prophet for seasonality-aware forecasting. Evaluation
 metrics included MAE, RMSE, and MAPE, with horizon-wise error analysis to compare short vs longer forecasts. Rolling forecast validation ensured robustness
 across different time windows. This multi-model approach allowed for comprehensive comparison and identification of the most effective forecasting strategy.
+
+4. Results and Insights
+The results highlight clear differences in model performance. Naïve forecasts provided a simple baseline but lacked accuracy, particularly during demand spikes.
+Random Forest consistently outperformed other models in short-term horizons (15–60 minutes), capturing complex patterns in ticket demand. Prophet excelled in
+modeling seasonality and provided confidence intervals, making it valuable for longer horizons up to 2 hours. ARIMA/SARIMA performed well for stationary demand
+but struggled with sudden surges. Key insights include the importance of feature engineering in improving machine learning accuracy and the value of uncertainty
+quantification for operational planning. Confidence bands from Prophet revealed periods of higher uncertainty, guiding operators to prepare for potential surges.
+Overall, Random Forest and Prophet emerged as complementary models, with Random Forest suited for immediate short-term forecasts and Prophet for horizon-based 
+planning.
