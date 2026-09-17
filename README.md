@@ -4,10 +4,6 @@ A machine-learning system that forecasts Toronto Island Park ferry ticket **sale
 **redemptions** 15 minutes to 2 hours ahead, built from a decade of 15-minute-interval
 ticketing data, with a live Streamlit dashboard for operators.
 
-Built to match the attached SRS ("Short-Term Ferry Ticket Demand Forecasting & Predictive
-Decision Support System") feature-for-feature — see [SRS coverage](#srs-coverage-checklist) below.
-
-![hourly profile](assets/02_hourly_profile.png)
 
 ## What it does
 
