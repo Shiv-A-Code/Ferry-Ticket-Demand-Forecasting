@@ -1,0 +1,27 @@
+pandas==3.0.2
+numpy==2.4.4
+scikit-learn==1.8.0
+joblib==1.5.3
+matplotlib>=3.7
+plotly>=5.18
+streamlit>=1.32
+
+# The exact pins above for pandas/numpy/scikit-learn/joblib matter: the
+# trained model files in models/*.joblib were pickled with these specific
+# versions. joblib/pickle store internal module paths (e.g.
+# sklearn.ensemble._hist_gradient_boosting._loss), and those paths change
+# between scikit-learn versions — loading a model saved by a newer/older
+# sklearn than the one installed can fail with errors like
+# "ModuleNotFoundError: No module named '_loss'". If you hit that, run:
+#   pip install --force-reinstall scikit-learn==1.8.0 joblib==1.5.3 numpy==2.4.4 pandas==3.0.2
+# Alternatively, retrain locally with your installed scikit-learn version:
+#   python src/train.py "Sales Count" 1 2 4 8
+#   python src/train.py "Redemption Count" 1 2 4 8
+# (this regenerates every .joblib file using whatever sklearn you have)
+
+# Optional extensions mentioned in the SRS (not required to run app.py or
+# train.py — only needed if you extend train.py with the ARIMA/SARIMA/
+# Prophet/XGBoost sections described in the README):
+# statsmodels>=0.14
+# prophet>=1.1
+# xgboost>=2.0
