@@ -1,0 +1,262 @@
+{
+  "Sales Count": {
+    "1": {
+      "Naive": {
+        "MAE": 17.842,
+        "RMSE": 82.035,
+        "MAPE": 104.66
+      },
+      "Moving Average": {
+        "MAE": 18.232,
+        "RMSE": 67.883,
+        "MAPE": 117.2
+      },
+      "Seasonal Naive": {
+        "MAE": 28.679,
+        "RMSE": 93.705,
+        "MAPE": 161.04
+      },
+      "Linear Regression": {
+        "MAE": 15.838,
+        "RMSE": 60.724,
+        "MAPE": 129.92
+      },
+      "Random Forest": {
+        "MAE": 14.769,
+        "RMSE": 59.928,
+        "MAPE": 104.4
+      },
+      "Gradient Boosting": {
+        "MAE": 14.626,
+        "RMSE": 59.822,
+        "MAPE": 98.33
+      }
+    },
+    "2": {
+      "Naive": {
+        "MAE": 19.112,
+        "RMSE": 83.036,
+        "MAPE": 117.84
+      },
+      "Moving Average": {
+        "MAE": 20.011,
+        "RMSE": 69.43,
+        "MAPE": 128.35
+      },
+      "Seasonal Naive": {
+        "MAE": 29.126,
+        "RMSE": 94.061,
+        "MAPE": 172.28
+      },
+      "Linear Regression": {
+        "MAE": 16.72,
+        "RMSE": 61.443,
+        "MAPE": 141.79
+      },
+      "Random Forest": {
+        "MAE": 15.139,
+        "RMSE": 60.34,
+        "MAPE": 107.06
+      },
+      "Gradient Boosting": {
+        "MAE": 14.907,
+        "RMSE": 60.074,
+        "MAPE": 99.87
+      }
+    },
+    "4": {
+      "Naive": {
+        "MAE": 21.666,
+        "RMSE": 84.998,
+        "MAPE": 129.13
+      },
+      "Moving Average": {
+        "MAE": 23.964,
+        "RMSE": 73.431,
+        "MAPE": 156.7
+      },
+      "Seasonal Naive": {
+        "MAE": 30.75,
+        "RMSE": 95.585,
+        "MAPE": 168.2
+      },
+      "Linear Regression": {
+        "MAE": 18.795,
+        "RMSE": 63.38,
+        "MAPE": 167.62
+      },
+      "Random Forest": {
+        "MAE": 15.872,
+        "RMSE": 60.927,
+        "MAPE": 110.11
+      },
+      "Gradient Boosting": {
+        "MAE": 15.541,
+        "RMSE": 60.656,
+        "MAPE": 103.44
+      }
+    },
+    "8": {
+      "Naive": {
+        "MAE": 28.933,
+        "RMSE": 91.968,
+        "MAPE": 180.97
+      },
+      "Moving Average": {
+        "MAE": 32.478,
+        "RMSE": 83.169,
+        "MAPE": 211.78
+      },
+      "Seasonal Naive": {
+        "MAE": 35.912,
+        "RMSE": 100.891,
+        "MAPE": 210.23
+      },
+      "Linear Regression": {
+        "MAE": 23.03,
+        "RMSE": 67.777,
+        "MAPE": 223.98
+      },
+      "Random Forest": {
+        "MAE": 17.002,
+        "RMSE": 62.303,
+        "MAPE": 110.15
+      },
+      "Gradient Boosting": {
+        "MAE": 16.729,
+        "RMSE": 62.068,
+        "MAPE": 107.89
+      }
+    }
+  },
+  "Redemption Count": {
+    "1": {
+      "Naive": {
+        "MAE": 18.681,
+        "RMSE": 83.424,
+        "MAPE": 130.27
+      },
+      "Moving Average": {
+        "MAE": 18.912,
+        "RMSE": 70.12,
+        "MAPE": 123.82
+      },
+      "Seasonal Naive": {
+        "MAE": 30.01,
+        "RMSE": 98.203,
+        "MAPE": 171.31
+      },
+      "Linear Regression": {
+        "MAE": 17.227,
+        "RMSE": 63.659,
+        "MAPE": 119.38
+      },
+      "Random Forest": {
+        "MAE": 15.214,
+        "RMSE": 61.478,
+        "MAPE": 109.18
+      },
+      "Gradient Boosting": {
+        "MAE": 15.083,
+        "RMSE": 61.219,
+        "MAPE": 102.7
+      }
+    },
+    "2": {
+      "Naive": {
+        "MAE": 19.829,
+        "RMSE": 84.363,
+        "MAPE": 124.76
+      },
+      "Moving Average": {
+        "MAE": 20.834,
+        "RMSE": 72.374,
+        "MAPE": 133.96
+      },
+      "Seasonal Naive": {
+        "MAE": 30.55,
+        "RMSE": 98.677,
+        "MAPE": 168.95
+      },
+      "Linear Regression": {
+        "MAE": 18.274,
+        "RMSE": 65.013,
+        "MAPE": 130.53
+      },
+      "Random Forest": {
+        "MAE": 15.516,
+        "RMSE": 61.863,
+        "MAPE": 108.25
+      },
+      "Gradient Boosting": {
+        "MAE": 15.385,
+        "RMSE": 61.665,
+        "MAPE": 102.91
+      }
+    },
+    "4": {
+      "Naive": {
+        "MAE": 22.306,
+        "RMSE": 87.645,
+        "MAPE": 126.42
+      },
+      "Moving Average": {
+        "MAE": 25.365,
+        "RMSE": 77.974,
+        "MAPE": 149.75
+      },
+      "Seasonal Naive": {
+        "MAE": 32.192,
+        "RMSE": 100.929,
+        "MAPE": 177.66
+      },
+      "Linear Regression": {
+        "MAE": 20.824,
+        "RMSE": 68.164,
+        "MAPE": 152.88
+      },
+      "Random Forest": {
+        "MAE": 16.058,
+        "RMSE": 62.725,
+        "MAPE": 106.08
+      },
+      "Gradient Boosting": {
+        "MAE": 16.028,
+        "RMSE": 62.689,
+        "MAPE": 100.27
+      }
+    },
+    "8": {
+      "Naive": {
+        "MAE": 30.689,
+        "RMSE": 97.273,
+        "MAPE": 158.03
+      },
+      "Moving Average": {
+        "MAE": 35.153,
+        "RMSE": 91.178,
+        "MAPE": 204.51
+      },
+      "Seasonal Naive": {
+        "MAE": 38.22,
+        "RMSE": 107.92,
+        "MAPE": 199.83
+      },
+      "Linear Regression": {
+        "MAE": 25.805,
+        "RMSE": 74.841,
+        "MAPE": 197.51
+      },
+      "Random Forest": {
+        "MAE": 17.582,
+        "RMSE": 65.071,
+        "MAPE": 109.52
+      },
+      "Gradient Boosting": {
+        "MAE": 17.533,
+        "RMSE": 64.796,
+        "MAPE": 109.03
+      }
+    }
+  }
+}
